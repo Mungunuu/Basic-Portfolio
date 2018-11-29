@@ -1,0 +1,146 @@
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/background.png);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  main {
+    min-height: 100%;
+    margin-bottom: -100px;
+  }
+  
+  .container {
+    background-color:#ffffff;
+    color: #777777;
+    width: 960px;
+    margin: 0px auto;
+  }
+  
+  header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #666666;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    list-style-type: none;
+  }
+  
+  li.nav {
+    color: #ffffff;
+    float: left;
+    font-size: 32px;
+    text-align: center;
+    padding: 25px ;
+    margin-right: 20px;
+    list-style: none;
+    background-color: #4aaaa5;
+  }
+  
+  nav li {
+    color:#777777;
+    float: right;
+    list-style-type: none ;
+}
+  
+  nav a:hover {
+    background-color: white;
+  }
+  
+  a {
+    color:#ffffff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+    color: fuchsia;
+  }
+  
+  nav a {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    color: black;
+  }
+  
+  h1 {
+    margin: 2.5%;
+    padding: 2.5% 2.5%;
+    color: #4aaaa5;
+    font-size: 32px;
+    text-align: left;
+    border-bottom-style: solid;
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  p {
+    margin-block-start: 0px;
+    line-height: 1.6;
+    padding: 0 2.5%;
+  }
+  
+  section {
+    clear: both;
+  }
+  
+  section#about {
+    min-height: 600px;
+    padding: 10% 0;
+  
+  }
+  
+  img#headshot {
+    width:250px;
+    height:200px;
+    padding-right: 2.5%;
+    padding-top: 0;
+    float: left;
+    margin-left: 2.5%;
+  }
+  
+  section#contact {
+    padding: 5% 0;
+    min-height: 300px;
+    text-align: center;
+    background-color: skyblue;
+    background-image: linear-gradient(to bottom right, #367F8F, #F6BD75);
+  }
+
+  ul {
+    padding: 0;
+    color:#cccccc;
+    margin: 0;
+  }
+  
+  ul.contact li {
+    padding: 5% 2.5%;
+    display: inline-block;
+  }
+  
+  footer {
+    text-align: center;
+    background-color:#666666;
+    color: white;
+    border-top-style: solid;
+    border-color: #4aaaa5
+  }
+  
+  footer a {
+    color: white;
+    
+  }
+  
+  footer,
+  .push {
+    height: 100px;
+  }
+  
